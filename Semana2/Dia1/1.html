@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <style>
+            .yellow1 {
+                background-color: rgba(255, 255, 0, 0.5);
+            }
+    
+            .green1 {
+                background-color: rgba(0, 128, 0, 0.6);
+            }
+    
+            .purple1 {
+                background-color: rgba(128, 0, 128, 0.4);
+            }
+        </style>
+    </head>
+    
+    <body>
+        <table border="1" width="800" height="300" cellspacing="1" style="text-align: center;" cellpadding="10">
+            <tr>
+                <td rowspan="3">Day</td>
+                <td colspan="4">Seminar</td>
+            </tr>
+            <tr>
+                <td colspan="2">Schedule</td>
+                <td colspan="2" rowspan="2">Topic</td>
+            </tr>
+            <tr>
+                <td>Begin</td>
+                <td>End</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Monday</td>
+                <td rowspan="2" class="yellow1">8:00 am</td>
+                <td rowspan="2" class="purple1">5:00 pm</td>
+                <td colspan="2">Introduction to XML</td>
+            </tr>
+            <tr>
+                <td colspan="2">Validity: DTD and Relax NG</td>
+            </tr>
+            <! - El diseño de la mesa es un poco aburrido !!! ->
+            <!---->
+            <tr>
+                <td rowspan="6">Tuesday</td>
+                <td rowspan="2" class="yellow1">8:00 am</td>
+                <td rowspan="2" class="yellow1">11:00</td>
+                <!-- <td rowspan="2" class="yellow1">11:00 am</td>
+                <td rowspan="2" class="green1">2:00 pm</td> -->
+                <td rowspan="3" colspan="2">Xpath</td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td rowspan="2" class="yellow1">11:00 am</td>
+                <td rowspan="2" class="green1">2:00 pm</td>
+            </tr>
+            <tr>
+                <td rowspan="3" colspan="2">Transformations</td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="green1">2:00 pm</td>
+                <td rowspan="2" class="purple1">5:00 pm</td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td rowspan="2">Wednesday</td>
+                <td class="yellow1">8:00 am</td>
+                <td  class="green1">12:00 pm</td>
+                <td>XSL Fomatting Objects</td>
+            </tr>
+        </table>
+    </body>
+    
+    </html>
