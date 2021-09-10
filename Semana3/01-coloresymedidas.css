@@ -1,0 +1,35 @@
+*{
+    /*Todos los elementos tengan un borde de 1px*/
+    border: 1px solid red;
+}
+
+/*Medidas*/
+header{
+    width: 400px;
+    height: 200px;
+}
+
+h1{
+    color: peru;
+    width: 50%;
+    border: 1px solid blue;
+    height: 20%;
+}
+
+h2{
+    /* Hexadecimal, en pares*/
+    /* color, #RR GG BB*/
+    /* color, #005DFC*/
+    color: #555;
+}
+
+h3{
+    /* RGB, 0 a 255 cada color*/
+    color: rgb(255, 85, 197);
+}
+
+p{
+    /*Hue, Saturation, Lightness*/
+    /*Matiz, Saturación e Iluminación*/
+    background-color: hsl(100, 100%, 60%);
+}

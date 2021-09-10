@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+.menu{
+    height: 300px;
+    background-color: coral;
+    display: flex;
+    flex-direction: row;
+    /*justify-content me permite alinear mis elementos de forma horizontal*/
+    justify-content: space-evenly;
+    /* center, space-between, space-evenly, space-around */
+
+    /*------------------------------------------------------------*/
+    /* align-items me permite alinear mis elementos de forma vertical*/
+    align-items: center;
+    /* center, flex-end, flex-start*/
+
+    /*------------------------------------------------------------*/
+    flex-wrap: wrap;
+}
+
+.link{
+    background-color: aquamarine;
+    height: 50px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.link1{
+    flex-grow: 4;
+    flex-shrink: 4;
+}
+
+.link3{
+    /* flex-grow: #, ocupa el espacio disponible*/
+    flex-grow: 2;
+}
+
+.link6{
+    flex-grow: 2;
+}
